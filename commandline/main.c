@@ -5,7 +5,7 @@
  * Tabsize: 4
  * Copyright: (c) 2007 by OBJECTIVE DEVELOPMENT Software GmbH
  * License: Proprietary, free under certain conditions. See Documentation.
- * This Revision: $Id: main.c 787 2010-05-30 20:54:25Z cs $
+ * This Revision: $Id$
  */
 
 #include <stdio.h>

@@ -5,7 +5,7 @@
  * Tabsize: 4
  * Copyright: (c) 2006 by OBJECTIVE DEVELOPMENT Software GmbH
  * License: Proprietary, free under certain conditions. See Documentation.
- * This Revision: $Id: usbcalls.h 281 2007-03-20 13:22:10Z cs $
+ * This Revision: $Id$
  */
 
 #ifndef __usbcalls_h_INCLUDED__

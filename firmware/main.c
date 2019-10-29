@@ -5,7 +5,7 @@
  * Tabsize: 4
  * Copyright: (c) 2007 by OBJECTIVE DEVELOPMENT Software GmbH
  * License: GNU GPL v2 (see License.txt)
- * This Revision: $Id: main.c 788 2010-05-30 20:54:41Z cs $
+ * This Revision: $Id$
  */
 
 #include <avr/io.h>
@@ -43,7 +43,7 @@ static uchar            exitMainloop;
 #endif
 
 
-PROGMEM char usbHidReportDescriptor[33] = {
+const PROGMEM char usbHidReportDescriptor[33] = {
     0x06, 0x00, 0xff,              // USAGE_PAGE (Generic Desktop)
     0x09, 0x01,                    // USAGE (Vendor Usage 1)
     0xa1, 0x01,                    // COLLECTION (Application)
@@ -125,7 +125,7 @@ static uchar    replyBuffer[7] = {
         }
 #endif
     }else if(rq->bRequest == USBRQ_HID_GET_REPORT){
-        usbMsgPtr = replyBuffer;
+        usbMsgPtr = (usbMsgPtr_t)replyBuffer;
         return 7;
     }
     return 0;

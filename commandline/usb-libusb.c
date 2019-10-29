@@ -5,7 +5,7 @@
  * Tabsize: 4
  * Copyright: (c) 2006 by OBJECTIVE DEVELOPMENT Software GmbH
  * License: Proprietary, free under certain conditions. See Documentation.
- * This Revision: $Id: usb-libusb.c 323 2007-03-29 17:25:03Z cs $
+ * This Revision: $Id$
  */
 
 /*

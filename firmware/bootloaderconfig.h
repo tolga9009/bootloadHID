@@ -5,7 +5,7 @@
  * Tabsize: 4
  * Copyright: (c) 2007 by OBJECTIVE DEVELOPMENT Software GmbH
  * License: GNU GPL v2 (see License.txt)
- * This Revision: $Id: bootloaderconfig.h 699 2008-11-26 19:50:32Z cs $
+ * This Revision: $Id$
  */
 
 #ifndef __bootloaderconfig_h_included__

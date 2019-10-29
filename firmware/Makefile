@@ -5,7 +5,7 @@
 # Tabsize: 4
 # Copyright: (c) 2007 by OBJECTIVE DEVELOPMENT Software GmbH
 # License: GNU GPL v2 (see License.txt)
-# This Revision: $Id: Makefile 788 2010-05-30 20:54:41Z cs $
+# This Revision: $Id$
 
 ###############################################################################
 # Configure the following variables according to your AVR. The example below
